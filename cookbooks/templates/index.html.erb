@@ -1,0 +1,19 @@
+<h1> Java Home - Registration </h1>
+<form>
+    
+    <%
+    cources = [ "Java", "DevOps", "Angular"]
+    cources.each do |c|
+    %>
+    <%= c %>
+    <%
+    end
+    %>
+    
+#    <%= " This is coming from Ruby code " %>
+#    <%= node ['ipaddress'] %>
+  
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>  
+      
+</form>
