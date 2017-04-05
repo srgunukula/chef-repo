@@ -1,3 +1,6 @@
+#chef ignore
+/.chef/
+
 *.gem
 *.rbc
 /.config
