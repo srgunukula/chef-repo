@@ -24,6 +24,7 @@ end
   end
   
   file '/var/www/html/index.html' do
-    content '<h1> This is deployed by Chef in apache 1 </h1>'
+    content '<h1> This is index file for apache </h1>'
+    content '<h2> The installation is done by chef using Jenkins </h2>'
   end
 
